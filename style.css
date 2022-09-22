@@ -1,0 +1,67 @@
+body {
+  background-image: url("./Images/tonerre.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+h1 {
+  font-weight: bold;
+  color: rgb(66, 6, 46);
+  font-size: 50px;
+}
+.container {
+  /* width: 350px;
+  height: 350px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: linear-gradient(
+    to right,
+    rgba(87, 90, 247, 0.7),
+    rgb(252, 228, 232, 0.7)
+  );
+  /* opacity: 0.7; */
+}
+
+.carre {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(111, 112, 113);
+}
+
+#ville {
+  background-color: rgb(224, 222, 216);
+  border-radius: 25px 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+#icon {
+  margin-right: 10px;
+  padding: 10px;
+}
+#temperature {
+  background-color: rgb(225, 225, 225);
+  border-radius: 10px 25px;
+  margin-right: 10px;
+  padding: 10px;
+}
+#vent {
+  background-color: rgb(215, 215, 215);
+  border-radius: 10px 25px;
+  margin-right: 10px;
+  padding: 10px;
+}
+#humidite {
+  background-color: rgb(200, 200, 200);
+  border-radius: 25px 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
